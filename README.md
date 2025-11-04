@@ -47,17 +47,17 @@ Hệ thống được xây dựng bằng **Streamlit**, hỗ trợ người dùn
 ## 🚀 3. Hình ảnh giao diện và chức năng
 
 <p align="center">
-  <img src="https://github.com/MinnKaa/ChuyenDoiSo/tree/main/data/anh1.jpg?raw=true" alt="Trang chủ ứng dụng" width="700"/>
+  <img src="https://github.com/MinnKaa/ChuyenDoiSo/blob/main/data/anh1.png" alt="Trang chủ ứng dụng" width="700"/>
 </p>
 <p align="center"><em>Hình 1: Giao diện trang chủ</em></p>
 
 <p align="center">
-  <img src="https://github.com/MinnKaa/ChuyenDoiSo/tree/main/data/anh2.jpg?raw=true" alt="Mẫu biểu nhập dữ liệu" width="700"/>
+  <img src="https://github.com/MinnKaa/ChuyenDoiSo/blob/main/data/anh2.png" alt="Mẫu biểu nhập dữ liệu" width="700"/>
 </p>
 <p align="center"><em>Hình 2: Phân tích của AI</em></p>
 
 <p align="center">
-  <img src="https://github.com/MinnKaa/ChuyenDoiSo/tree/main/data/anh3.jpg?raw=true" alt="Kết quả hiển thị" width="700"/>
+  <img src="https://github.com/MinnKaa/ChuyenDoiSo/blob/main/data/anh3.png" alt="Kết quả hiển thị" width="700"/>
 </p>
 <p align="center"><em>Hình 3: Biểu đồ so sánh</em></p>
 
