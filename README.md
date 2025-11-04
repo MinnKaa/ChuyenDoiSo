@@ -5,7 +5,7 @@
 </h2>
 
 <h2 align="center">
-  ỨNG DỤNG CHUYỂN ĐỔI SỐ
+  ỨNG DỤNG CHUYỂN ĐỔI SỐ — PHÂN TÍCH BÁO CÁO TÀI CHÍNH BẰNG AI GEMINI
 </h2>
 
 <div align="center">
@@ -20,25 +20,27 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 </div>
 
+---
 
 ## 📖 1. Giới thiệu hệ thống
 
-`Ứng Dụng Chuyển Đổi Số` là một ứng dụng web giao diện người dùng (frontend) được xây dựng nhằm hỗ trợ chuyển đổi số trong quản lý và xử lý dữ liệu.  
-Hệ thống tập trung vào việc hiển thị thông tin, quản lý các biểu mẫu điện tử, và tương tác trực tiếp giữa người dùng với dữ liệu thông qua trình duyệt.
-
-Ứng dụng gồm:
-- **Giao diện người dùng (UI):** được thiết kế trực quan, dễ sử dụng, hỗ trợ nhập liệu và xử lý thông tin số hóa.
-- **Tích hợp logic xử lý cục bộ:** sử dụng JavaScript để thực hiện các thao tác như tính toán, kiểm tra dữ liệu, và hiển thị kết quả.
-- **Khả năng mở rộng:** có thể tích hợp API hoặc backend trong tương lai nếu cần triển khai trên quy mô lớn.
+`Ứng Dụng Chuyển Đổi Số` là một ứng dụng web sử dụng **AI Gemini của Google** để **phân tích và trực quan hóa dữ liệu tài chính** từ các báo cáo Excel.  
+Hệ thống được xây dựng bằng **Streamlit**, hỗ trợ người dùng:
+- Tải nhiều file báo cáo tài chính (*.xlsx*)
+- Trò chuyện, đặt câu hỏi bằng tiếng Việt về dữ liệu tài chính
+- Tự động sinh phân tích và biểu đồ bằng AI
 
 ---
 
 ## 🔧 2. Công nghệ sử dụng
 
-- **HTML5** — tạo cấu trúc trang.
-- **CSS3** — thiết kế giao diện, bố cục, hiệu ứng.
-- **JavaScript (ES6)** — xử lý logic, tương tác với người dùng.
-- **Bootstrap 5** (nếu có) — hỗ trợ responsive và component UI.
+| Thành phần | Công nghệ |
+|-------------|------------|
+| Giao diện web | Streamlit |
+| Trí tuệ nhân tạo | Google Gemini API |
+| Phân tích dữ liệu | Pandas, Altair |
+| Quản lý môi trường | python-dotenv |
+| Xử lý tệp Excel | pandas.read_excel() |
 
 ---
 
@@ -61,18 +63,43 @@ Hệ thống tập trung vào việc hiển thị thông tin, quản lý các bi
 
 ---
 
-## 📝 4. Hướng dẫn chạy ứng dụng
+## 📝 4. Cách chạy ứng dụng
 
-1️⃣ Giải nén project vào một thư mục (ví dụ: `D:\Project\ChuyenDoiSo`).  
-2️⃣ Mở file **`index.html`** (hoặc file chính của giao diện) bằng trình duyệt web bất kỳ:  
-   - Chrome  
-   - Edge  
-   - Firefox  
+1️⃣ Cài Python và các thư viện cần thiết**
 
-## 💡 5.Thông tin sinh viên
+```bash
+pip install streamlit pandas altair python-dotenv google-generativeai openpyxl
+2️⃣ Cấu hình API key Gemini
+
+Tạo file .env trong cùng thư mục với code chính (ví dụ: app.py):
+
+GOOGLE_API_KEY=your_google_api_key_here
+3️⃣ Chạy ứng dụng Streamlit
+
+Trong terminal, gõ lệnh:
+
+streamlit run app.py
+4️⃣ Cách sử dụng
+
+Trong thanh bên trái, tải lên 1 hoặc nhiều file Excel (báo cáo tài chính).
+
+Nhập câu hỏi vào ô chat, ví dụ:
+
+“Phân tích doanh thu của các công ty trong năm 2024”
+
+“So sánh lợi nhuận giữa các công ty quý 2/2023”
+
+“Vẽ biểu đồ vốn chủ sở hữu theo thời gian”
+
+Ứng dụng sẽ:
+
+Hiển thị phân tích chi tiết bằng tiếng Việt từ AI Gemini
+
+Tự động vẽ biểu đồ cột bằng Altair khi có yêu cầu “vẽ”, “so sánh”, “biểu đồ”
+## 👤 6. Thông tin sinh viên
 
 **Họ tên:** Vũ Đức Minh
 **Lớp:** CNTT 16–02
-**Email:** mvu2k4@gmail.com 
+**Email:** mvu2k4@gmail.com
 
-© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. 
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University.  
