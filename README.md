@@ -64,11 +64,11 @@ Hệ thống được xây dựng bằng **Streamlit**, hỗ trợ người dùn
 ---
 
 ## 📝 4. Cách chạy ứng dụng
-```powershell
-1️⃣ Cài Python và các thư viện cần thiết
-```
-pip install streamlit pandas altair python-dotenv google-generativeai openpyxl
 
+1️⃣ Cài Python và các thư viện cần thiết
+```powershell
+pip install streamlit pandas altair python-dotenv google-generativeai openpyxl
+```
 2️⃣ Cấu hình API key Gemini
 
 Tạo file .env trong cùng thư mục với code chính (ví dụ: app.py):
