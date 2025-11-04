@@ -66,22 +66,37 @@ Hệ thống được xây dựng bằng **Streamlit**, hỗ trợ người dùn
 ## 📝 4. Cách chạy ứng dụng
 
 1️⃣ Cài Python và các thư viện cần thiết**
-pip install streamlit pandas altair python-dotenv google-generativeai openpyxl
-2️⃣ Cấu hình API key Gemini
-Tạo file .env trong cùng thư mục với code chính (ví dụ: app.py):
-GOOGLE_API_KEY=your_google_api_key_here
-3️⃣ Chạy ứng dụng Streamlit
-Trong terminal, gõ lệnh:
-streamlit run app.py
-4️⃣ Cách sử dụng
-Trong thanh bên trái, tải lên 1 hoặc nhiều file Excel (báo cáo tài chính).
-Nhập câu hỏi vào ô chat, ví dụ:
-“Phân tích doanh thu của các công ty trong năm 2024”
-“So sánh lợi nhuận giữa các công ty quý 2/2023”
-“Vẽ biểu đồ vốn chủ sở hữu theo thời gian”
-Ứng dụng sẽ:
-Hiển thị phân tích chi tiết bằng tiếng Việt từ AI Gemini
-Tự động vẽ biểu đồ cột bằng Altair khi có yêu cầu “vẽ”, “so sánh”, “biểu đồ”
+
+pip install streamlit pandas altair python-dotenv google-generativeai openpyxl**
+
+2️⃣ Cấu hình API key Gemini**
+
+Tạo file .env trong cùng thư mục với code chính (ví dụ: app.py):**
+
+GOOGLE_API_KEY=your_google_api_key_here**
+
+3️⃣ Chạy ứng dụng Streamlit**
+
+Trong terminal, gõ lệnh:**
+streamlit run app.py**
+
+4️⃣ Cách sử dụng**
+
+Trong thanh bên trái, tải lên 1 hoặc nhiều file Excel (báo cáo tài chính).**
+
+Nhập câu hỏi vào ô chat, ví dụ:**
+
+“Phân tích doanh thu của các công ty trong năm 2024”**
+
+“So sánh lợi nhuận giữa các công ty quý 2/2023”**
+
+“Vẽ biểu đồ vốn chủ sở hữu theo thời gian”**
+
+Ứng dụng sẽ:**
+
+Hiển thị phân tích chi tiết bằng tiếng Việt từ AI Gemini**
+
+Tự động vẽ biểu đồ cột bằng Altair khi có yêu cầu “vẽ”, “so sánh”, “biểu đồ”**
 
 ---
 
