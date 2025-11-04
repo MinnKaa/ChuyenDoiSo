@@ -47,19 +47,19 @@ Hệ thống được xây dựng bằng **Streamlit**, hỗ trợ người dùn
 ## 🚀 3. Hình ảnh giao diện và chức năng
 
 <p align="center">
-  <img src="https://github.com/MinnKaa/ChuyenDoiSo/blob/main/Ảnh/1.jpg?raw=true" alt="Trang chủ ứng dụng" width="700"/>
+  <img src="https://github.com/MinnKaa/ChuyenDoiSo/tree/main/data/anh1.jpg?raw=true" alt="Trang chủ ứng dụng" width="700"/>
 </p>
-<p align="center"><em>Hình 1: Giao diện trang chủ của ứng dụng Chuyển Đổi Số</em></p>
+<p align="center"><em>Hình 1: Giao diện trang chủ</em></p>
 
 <p align="center">
-  <img src="https://github.com/MinnKaa/ChuyenDoiSo/blob/main/Ảnh/2.jpg?raw=true" alt="Mẫu biểu nhập dữ liệu" width="700"/>
+  <img src="https://github.com/MinnKaa/ChuyenDoiSo/tree/main/data/anh2.jpg?raw=true" alt="Mẫu biểu nhập dữ liệu" width="700"/>
 </p>
-<p align="center"><em>Hình 2: Biểu mẫu nhập liệu và xử lý dữ liệu số hóa</em></p>
+<p align="center"><em>Hình 2: Phân tích của AI</em></p>
 
 <p align="center">
-  <img src="https://github.com/MinnKaa/ChuyenDoiSo/blob/main/Ảnh/3.jpg?raw=true" alt="Kết quả hiển thị" width="700"/>
+  <img src="https://github.com/MinnKaa/ChuyenDoiSo/tree/main/data/anh3.jpg?raw=true" alt="Kết quả hiển thị" width="700"/>
 </p>
-<p align="center"><em>Hình 3: Kết quả hiển thị sau khi xử lý dữ liệu</em></p>
+<p align="center"><em>Hình 3: Biểu đồ so sánh</em></p>
 
 ---
 
@@ -67,7 +67,6 @@ Hệ thống được xây dựng bằng **Streamlit**, hỗ trợ người dùn
 
 1️⃣ Cài Python và các thư viện cần thiết**
 
-```bash
 pip install streamlit pandas altair python-dotenv google-generativeai openpyxl
 2️⃣ Cấu hình API key Gemini
 
@@ -96,7 +95,10 @@ Nhập câu hỏi vào ô chat, ví dụ:
 Hiển thị phân tích chi tiết bằng tiếng Việt từ AI Gemini
 
 Tự động vẽ biểu đồ cột bằng Altair khi có yêu cầu “vẽ”, “so sánh”, “biểu đồ”
-## 👤 6. Thông tin sinh viên
+
+---
+
+## 👤 5. Thông tin sinh viên
 
 **Họ tên:** Vũ Đức Minh
 **Lớp:** CNTT 16–02
