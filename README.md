@@ -109,5 +109,6 @@ Tự động vẽ biểu đồ cột bằng Altair khi có yêu cầu “vẽ”
 
 **Họ tên:** Phùng Xuân Đức
 **Lớp:** CNTT 16–02
-**Email:** lufyvsnaruto11@gmail.con
+**Email:** lufyvsnaruto11@gmail.con//
+
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University.  
